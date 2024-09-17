@@ -11,15 +11,15 @@ jobs:
    runs-on: ubuntu-latest
    
    steps:
-   -name: Print Hello Message
-    run : echo "Hello World from testing job"
+   - name: Print Hello Message
+     run : echo "Hello World from testing job"
   
   my_testing2:
    runs-on: ubuntu-latest
    
    steps: 
-   -name: Print Hello World Messege
-    run : echo "Hello Wordld from testing job"
+   - name: Print Hello World Messege
+     run : echo "Hello Wordld from testing job"
 
     
 
