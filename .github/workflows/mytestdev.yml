@@ -1,0 +1,25 @@
+# steps - это таски
+name: MyDevOpsTest
+
+on: 
+  push:
+    branches: 
+      - master
+
+jobs:
+  my_testing1:
+   runs-on: ubuntu-latest
+   
+   steps:
+   -name: Print Hello Message
+    run : echo "Hello World from testing job"
+  
+  my_testing2:
+   runs-on: ubuntu-latest
+   
+   steps: 
+   -name: Print Hello World Messege
+    run : echo "Hello Wordld from testing job"
+
+    
+
